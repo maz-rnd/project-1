@@ -3,12 +3,34 @@
     padding: 0;
 }
 
+body {
+    background: #FFF;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
 .top {
     padding-bottom: 96px;
 }
 
 .header {
     padding-top: 45px;
+}
+
+.header__link {
+    color: #000000;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__link-home {
+    color: #F25822;
 }
 
 .top__content {
